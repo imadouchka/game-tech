@@ -1,0 +1,93 @@
+/* styles.css */
+
+@font-face {
+    font-family: 'Bazaronite';
+    src: url('BAZARONI.TTF') format('truetype');
+}
+
+body {
+    /* Your existing body styles here */
+    /* This applies the Bazaronite font to all text in the body, as an example */
+    font-family: 'Bazaronite', sans-serif;
+}
+
+/* Other styles... */
+
+/* This applies the Bazaronite font specifically to the element with id="fact" */
+#fact {
+    font-family: 'Bazaronite', sans-serif;
+    /* Additional styling for the fact text */
+}
+
+/* Further styles... */
+
+
+body {
+    font-family: 'Bazaronite', sans-serif;
+    /* Rest of your styles */
+}
+
+
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.coin-container {
+    text-align: center;
+    cursor: pointer;
+}
+
+.coin {
+    transition: transform 0.6s;
+    display: block;
+    margin: 0 auto;
+    width: 400px; /* Adjust as needed */
+    height: auto;
+}
+
+@keyframes spin {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
+
+.spin {
+    animation: spin 0.6s;
+}
+
+/* Add this to your styles.css file */
+//body {
+ //   background-color: #222323;
+ //   color: #ffffff; /* Adding white color to text for better readability */
+ //   display: flex;
+  //  justify-content: center;
+ //   align-items: center;
+ //   height: 100vh;
+    /* Keep your other body styles here */
+.transparent-background {
+    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+
+}
+
+/* You might also want to adjust other elements' colors for better visibility */
+
+/* Add this to your styles.css file to style the button */
+#showLyricsButton {
+    background-color: #A238FF;
+    color: #222323; /* Set text color to dark gray for contrast */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#showLyricsButton:hover {
+    background-color: #c9a6ff; /* Slightly darker shade for hover effect */
+}
+
