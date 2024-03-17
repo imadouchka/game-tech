@@ -93,3 +93,7 @@ body {
 body, html {
   overflow-y: hidden; /* Hides vertical scrollbar */
 }
+
+.element-class {
+  overflow-y: hidden; /* Hides vertical scrollbar for the element */
+}
