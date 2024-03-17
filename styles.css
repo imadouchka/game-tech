@@ -60,16 +60,15 @@ body {
 }
 
 /* Add this to your styles.css file */
-//body {
- //   background-color: #222323;
- //   color: #ffffff; /* Adding white color to text for better readability */
- //   display: flex;
-  //  justify-content: center;
- //   align-items: center;
- //   height: 100vh;
+ body {
+  background-color: #222323;
+  color: #ffffff; /* Adding white color to text for better readability */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
     /* Keep your other body styles here */
-.transparent-background {
-    background-color: rgba(0, 0, 0, 0); /* Fully transparent background */
+
 
 }
 
