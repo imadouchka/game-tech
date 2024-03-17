@@ -90,3 +90,6 @@ body {
     background-color: #c9a6ff; /* Slightly darker shade for hover effect */
 }
 
+body, html {
+  overflow-y: hidden; /* Hides vertical scrollbar */
+}
